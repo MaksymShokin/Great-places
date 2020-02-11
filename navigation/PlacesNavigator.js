@@ -10,8 +10,8 @@ import PlacesListScreen from '../screens/PlacesListScreen';
 import Colors from '../constants/Colors';
 
 const PlacesNavigator = createStackNavigator({
-  PlacesList: {screen: PlacesListScreen},
-  PlacesDetail: PlacesDetailScreen,
+  Places: {screen: PlacesListScreen},
+  PlaceDetail: PlacesDetailScreen,
   NewPlace: NewPlaceScreen,
   Map: MapScreen
 }, {

@@ -1,10 +1,10 @@
-export const ADD_PLACES = 'ADD_PLACES';
+export const ADD_PLACE = 'ADD_PLACE';
 
 export const addPlace = (title) => {
   return {
-    type: ADD_PLACES,
+    type: ADD_PLACE,
     placeData: {
       title: title
     }
   }
-}
+};
