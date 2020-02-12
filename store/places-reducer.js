@@ -13,6 +13,7 @@ export default (state = initialState, action) => {
         action.placeData.title,
         action.placeData.imageUri
       );
+      console.log(action.placeData)
       return {
         places: state.places.concat(newPlace)
       };

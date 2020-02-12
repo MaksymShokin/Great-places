@@ -20,6 +20,6 @@ export const addPlace = (title, image) => {
       throw err;
     }
 
-    dispatch({type: ADD_PLACE, placeData: {id: 5, title: title, image: newPath}});
+    dispatch({type: ADD_PLACE, placeData: {id: 5, title: title, imageUri: newPath}});
   };
 };
